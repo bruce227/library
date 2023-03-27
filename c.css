@@ -1,0 +1,117 @@
+/* Set default font and background color */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+/* Style for book card */
+.book-card {
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+}
+
+/* Hide new book form by default */
+form {
+    display: none;
+}
+
+/* Style for new book form label and inputs */
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input[type='text'],
+form input[type='number'] {
+    margin-bottom: 5px;
+}
+
+/* Style for new book form submit button */
+form input[type='submit'] {
+    display: block;
+    margin-top: 10px;
+}
+
+/* Style for main button */
+#new-book-btn {
+    font-size: 1.2rem;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    background-color: #4caf50;
+    color: white;
+    cursor: pointer;
+}
+
+/* Style for main button on hover */
+#new-book-btn:hover {
+    background-color: #3e8e41;
+}
+
+/* Style for main button on focus */
+#new-book-btn:focus {
+    outline: none;
+    box-shadow: 0px 0px 5px #555;
+}
+
+/* Style for title of book card */
+.book-card h2 {
+    font-size: 1.2rem;
+    margin: 0;
+}
+
+/* Style for author of book card */
+.book-card p:nth-of-type(2) {
+    font-style: italic;
+    margin: 0;
+}
+
+/* Style for pages of book card */
+.book-card p:nth-of-type(3) {
+    margin: 0;
+}
+
+/* Style for read/unread button of book card */
+.book-card button:nth-of-type(1) {
+    font-size: 1.1rem;
+    padding: 6px 12px;
+    border: none;
+    border-radius: 4px;
+    background-color: #2196f3;
+    color: white;
+    cursor: pointer;
+}
+
+/* Style for read/unread button on hover */
+.book-card button:nth-of-type(1):hover {
+    background-color: #0b7dda;
+}
+
+/* Style for read/unread button on focus */
+.book-card button:nth-of-type(1):focus {
+    outline: none;
+    box-shadow: 0px 0px 5px #555;
+}
+
+/* Style for remove button of book card */
+.book-card button:nth-of-type(2) {
+    font-size: 1.1rem;
+    padding: 6px 12px;
+    border: none;
+    border-radius: 4px;
+    background-color: #f44336;
+    color: white;
+    cursor: pointer;
+}
+
+/* Style for remove button on hover */
+.book-card button:nth-of-type(2):hover {
+    background-color: #da190b;
+}
+
+/* Style for remove button on focus */
+.book-card button:nth-of-type(2):focus {
+    outline: none;
+    box-shadow: 0px 0px 5px #555;
+}
