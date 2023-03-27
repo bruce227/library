@@ -39,8 +39,21 @@
     <div id="book-list"></div>
 
     <form id="new-book-form">
-        <!-- form inputs go here -->
+        <label for="title-input">Title:</label>
+        <input type="text" id="title-input" name="title" required>
+
+        <label for="author-input">Author:</label>
+        <input type="text" id="author-input" name="author" required>
+
+        <label for="pages-input">Pages:</label>
+        <input type="number" id="pages-input" name="pages" required>
+
+        <label for="read-input">Read:</label>
+        <input type="checkbox" id="read-input" name="read">
+
+        <input type="submit" value="ADD BOOK">
     </form>
+
 
     <script src="a.js"></script>
 </body>
